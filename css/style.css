@@ -129,7 +129,6 @@ img{
     margin-left: 635px;
     margin-left: 635px;
 }
-
 .title-three{
     color: #2E2F42;
     font-family: 'Roboto',sans-serif;
@@ -172,6 +171,7 @@ img{
 /*section*/
 .header-section {
     background-color: var(--bg);
+    border-bottom: 1px solid #e7e9fc;
 }
 .hero-section {
     background-color: #2E2F42;
@@ -203,6 +203,8 @@ img{
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    width: 1158px;
+    padding: 0 15px;
 }
 .logotipe-container{
     display: inline-flex;
@@ -212,15 +214,16 @@ img{
     margin-right: 76px;
 }
 .list-nav{
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
+    padding: 24px 0;
     gap: 40px;
 }
 .address-container{
     margin-left: auto;
 }
 .list-address{
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 40px;
 }
@@ -278,12 +281,15 @@ img{
     flex-direction: column;
 }
 .logo-f{
-    margin-bottom: 16px;
     display: inline-block;
+    margin-bottom: 16px;
 }
 .info-title{
     margin-bottom: 8px;
 }
-
+.nav-deco{
+    display: flex;
+    align-items: center;
+}
 
 
