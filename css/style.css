@@ -186,6 +186,8 @@ img{
 }
 .portfolio-section{
     background-color: var(--bg);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 .footer-section{
     background-color: #2E2F42;
@@ -216,7 +218,6 @@ img{
 .list-nav{
     display: flex;
     align-items: flex-start;
-    padding: 24px 0;
     gap: 40px;
 }
 .address-container{
@@ -226,6 +227,9 @@ img{
     display: flex;
     align-items: flex-start;
     gap: 40px;
+}
+.nav-item{
+    padding: 24px 0;
 }
 .hero-container{
     flex-shrink: 0;
@@ -273,8 +277,8 @@ img{
 .portfolio-container{
     display: flex;
     flex-wrap: wrap;
-    margin: 120px 156px;
     gap: 48px 24px;
+    margin: 0 156px;
 }
 .footer-container{
     display: flex;
@@ -291,5 +295,12 @@ img{
     display: flex;
     align-items: center;
 }
-
-
+.portfolio-title{
+    margin-bottom: 72px;
+}
+.mini-item{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
